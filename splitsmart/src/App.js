@@ -1,9 +1,17 @@
 import React from 'react'
-import './App.css'
+import Header from './Components/Header/header.jsx'
+import Main from './Components/Main/main.jsx'
+import './App.css' 
 
 const App = () => {
+
+
+    // printed to the screen
     return (
-        <div>App</div>
+        <>
+        <Header/>
+        <Main/>
+        </>
     )
 }
 
