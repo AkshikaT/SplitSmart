@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Components/Header/header.jsx'
-import Main from './Components/Main/main.jsx'
+import Order from './Components/Order/Order.jsx'
+import NumPpl from './Components/NumPpl/NumPpl.jsx'
 import './App.css' 
 
 const App = () => {
@@ -10,9 +11,11 @@ const App = () => {
     return (
         <>
         <Header/>
-        <Main/>
+        <NumPpl/>
+        <Order/>
         </>
     )
 }
+
 
 export default App

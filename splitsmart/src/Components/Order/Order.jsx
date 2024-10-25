@@ -1,12 +1,12 @@
 import React from 'react'
-import './main.css'
+import './Order.css'
 
 
 /* does the following: prompts number of people, asks for their names and what they ordered */
-const Main = () => {
+const Order = () => {
     return (
-        <div>Main</div>
+        <div>orders</div>
     )
 }
 
-export default Main
+export default Order
