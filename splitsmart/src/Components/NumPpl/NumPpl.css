@@ -31,9 +31,9 @@
 
 .dropdown-menu {
     position: absolute;
-    top: calc(50% + 60px); /* Adjust to position below the button with some spacing */
-    left: 50%; /* Start from the middle of the parent */
-    transform: translateX(-50%); /* Center horizontally */
+    top: calc(50% + 60px); 
+    left: 50%; 
+    transform: translateX(-50%); 
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -56,4 +56,25 @@
 .dropdown-item:hover {
     background-color: gray;
     color: white;
+}
+
+.people-container {
+    margin-top: 20px;
+    width: 80%; 
+}
+
+.people-input {
+    margin-bottom: 10px;
+}
+
+.people-input label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.people-input input {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
